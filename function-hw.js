@@ -5,10 +5,12 @@ function lengths(arrayOfStrings) {
   var myArr = [];
   for (i = 0; i < arrayOfStrings.length; i++) {
     myArr.push(arrayOfStrings[i].length);
-    console.log(myArr);
+    // console.log(myArr);
     return (myArr);
   }
 }
+// console.log(lengths(words));
+
 lengths(words);
 
 // long 2
